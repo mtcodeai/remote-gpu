@@ -1,10 +1,10 @@
-# Remote GPU
+# Remote - GPU
 
 Share your team's GPU computers safely — isolated accounts, shared datasets and Python environments, one-click SSH and container workspaces — all managed from a single panel in VS Code.
 
-The **Remote GPU** extension by MTCode is the client for [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html), which runs on your GPU hosts. Together they turn GPU workstations and servers into a shared, multi-tenant development service: the server provisions accounts, resources, and workspaces, while the extension gives every developer one-click access from a familiar editor.
+The **Remote - GPU** extension by MTCode is the client for [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html), which runs on your GPU hosts. Together they turn GPU workstations and servers into a shared, multi-tenant development service: the server provisions accounts, resources, and workspaces, while the extension gives every developer one-click access from a familiar editor.
 
-![Remote GPU panel overview](images/screenshot-gpu-extension.png)
+![Remote - GPU panel overview](images/screenshot-gpu-extension.png)
 
 *The panel showing the list of available GPU servers, the selected server's details, live disk/GPU usage, and the **Remote-SSH** / **SSH Terminal** / **Container Workspace** / **Select Python** action buttons.*
 
@@ -61,7 +61,7 @@ When a project needs a reproducible or specialized environment, administrators c
 
 1. Install this extension in VS Code (or MTCode Studio).
 2. Ask your administrator for an MTCode account authorized on their GPU server, or set up [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html) on your own GPU host.
-3. Open the **Remote GPU** view in the Activity Bar and sign in.
+3. Open the **Remote - GPU** view in the Activity Bar and sign in.
 4. Pick a server from the list — your tenant account and SSH key are provisioned automatically — then click **Remote-SSH**, **SSH Terminal**, or **Container Workspace**.
 
 On the host side, MTGPU Server loads shared datasets, Python environments, quotas, and container settings from a single `config.json`:
