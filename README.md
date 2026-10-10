@@ -2,7 +2,7 @@
 
 > **Preview release.** This extension connects to computers running [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html). The MTGPU Server download is coming soon on mtcodeai.com; until then the extension is usable only with servers an administrator has already set up.
 
-The **Remote - GPU** extension is the client for [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html), which turns existing workstations or cloud hosts into a multi-tenant cluster with a simple configuration. Installed in minutes, the cluster forms automatically, and user accounts are provisioned on first access without administrator setup. Existing OS accounts keep working without interruption. The built-in job scheduler handles native and containerized jobs and fails over on its own—no separate scheduling system to install and maintain. It scales from a single server to a cluster of thousands of servers with the same setup and user experience: add computers or shared storage as the need arises, and user file ownership travels from server to server with no account or data migration. The extension provides a uniform view of the available servers with the live usage of each, one-click access to an SSH terminal, and integration with the Remote-SSH and Dev Containers extensions.
+The **Remote - GPU** extension is the client for [MTGPU Server](https://mtcodeai.com/platform/gpu-server.html), which turns existing workstations or cloud hosts into a multi-tenant cluster with a simple configuration. Installed in minutes, the cluster forms automatically, and user accounts are provisioned on first access without administrator setup. Existing OS accounts keep working without interruption. The built-in job scheduler handles native and containerized jobs and fails over on its own—no separate scheduling system to install and maintain. It scales from a single server to a cluster of thousands of servers with the same setup and user experience: add computers or shared storage as the need arises, and user file ownership travels from server to server with no account or data migration. The extension provides a uniform view of the available servers with the live usage of each, one-click access to an SSH terminal inside a tmux session, and integration with the Remote-SSH and Dev Containers extensions.
 
 ![Remote - GPU panel overview](images/screenshot-gpu-extension.png)
 
@@ -33,6 +33,7 @@ Sign in once and the panel lists every GPU server you are authorized to use — 
 ## Learn More
 
 - [MTGPU Server — full product overview](https://mtcodeai.com/platform/gpu-server.html)
+- [User manual](https://mtcodeai.com/platform/user-manuals.html)
 - [How MTCode DirectLink works](https://mtcodeai.com/platform/platform.html)
 - [MTCodeAI.com](https://mtcodeai.com)
 
